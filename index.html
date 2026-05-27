@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>DevFolio AI Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <div class="form-section">
+
+            <h1 class="typing-text"></h1>
+
+            <p>
+                Build Your Developer Identity
+            </p>
+
+            <input type="text"
+                id="name"
+                placeholder="Your Name">
+
+            <textarea
+                id="about"
+                placeholder="Write About Yourself"></textarea>
+
+            <input type="text"
+                id="skills"
+                placeholder="Skills (HTML, CSS, JavaScript)">
+
+            <input type="text"
+                id="project"
+                placeholder="Project Name">
+
+            <input type="text"
+                id="github"
+                placeholder="GitHub Link">
+
+            <input type="file"
+                id="imageUpload"
+                accept="image/*">
+
+            <button onclick="generatePortfolio()">
+                Generate Portfolio
+            </button>
+
+            <button onclick="toggleTheme()">
+                Toggle Theme
+            </button>
+
+            <button onclick="downloadPortfolio()">
+                Download Portfolio
+            </button>
+
+        </div>
+
+        <div class="preview-section">
+
+            <div class="portfolio-card">
+
+                <img id="previewImage"
+                    src="https://via.placeholder.com/150"
+                    alt="profile">
+
+                <h2 id="previewName">
+                    Your Name
+                </h2>
+
+                <p id="previewAbout">
+                    About section will appear here.
+                </p>
+
+                <div class="skills-box">
+
+                    <h3>Skills</h3>
+
+                    <div id="previewSkills"
+                        class="skill-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </div>
+
+                <div class="project-box">
+
+                    <h3>Project</h3>
+
+                    <p id="previewProject">
+                        Your Project Name
+                    </p>
+
+                </div>
+
+                <a id="previewGithub"
+                    href="#"
+                    target="_blank">
+
+                    Visit GitHub
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
