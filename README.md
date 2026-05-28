@@ -28,30 +28,6 @@ This project allows users to instantly create a beautiful developer portfolio pr
 
 ---
 
-## 📸 Screenshots
-
-Add your project screenshots here.
-
-Example:
-
-```md
-![Screenshot](screenshot.png)
-```
-
----
-
-## 🚀 Live Demo
-
-🔗 Add Your Live Website Link Here
-
-Example:
-
-```md
-https://yourusername.github.io/devfolio-ai-pro/
-```
-
----
-
 ## 📂 Project Structure
 
 ```bash
@@ -85,14 +61,6 @@ Through this project, I improved my skills in:
 - Resume Upload Feature
 - Drag-and-Drop Sections
 - More Animation Effects
-
----
-
-## 👩‍💻 Author
-
-Jaya Lakshmi
-
-GitHub: Add Your GitHub Profile Link
 
 ---
 
